@@ -1,0 +1,29 @@
+name: food_ordering_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+  
+
+dependencies:
+  image_picker: ^1.1.2
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/burger_icon.jpeg
+    - assets/drink_icon.jpeg
+    - assets/teh_botol.jpeg
+    - assets/food_icon.jpeg
+    - assets/Burger_Chicken.jpeg
+    
